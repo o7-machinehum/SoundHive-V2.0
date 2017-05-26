@@ -1,0 +1,31 @@
+2x Chokes ~33uH
+
+40w output into 8ohm load @ Vdd = 25V
+iout = ~2.23A
+Choose 3A choke
+
+XAL6060-333ME_ from coilcraft
+---------------------------
+L6060-333ME_	
+L = 33uH
+R = 95.68mohm
+Isat = 3.7A
+Irms = 2.7A (20C)
+Irms = 3.6A (40C)
+
+Dimensions
+6.36mm x 6.56mm x 6.1mm
+
+
+Dimensions Breakdown
+---------------------
+2x Inductor(L6060-333ME_)
+	6.36mm x 6.56mm x 6.1mm
+
+
+
+Layout guideline
+----------------------
+	http://www.ti.com/lit/ug/slou191d/slou191d.pdf
+	This looks pretty straight forward.
+
