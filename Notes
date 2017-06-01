@@ -1,3 +1,6 @@
+Formfactor
+-1" sq isn't going to work
+
 2x Chokes ~33uH
 
 40w output into 8ohm load @ Vdd = 25V
@@ -6,7 +9,7 @@ Choose 3A choke
 
 XAL6060-333ME_ from coilcraft
 ---------------------------
-L6060-333ME_	
+2x L6060-333ME_	
 L = 33uH
 R = 95.68mohm
 Isat = 3.7A
@@ -16,16 +19,28 @@ Irms = 3.6A (40C)
 Dimensions
 6.36mm x 6.56mm x 6.1mm
 
+Cin (Bulk cap)
+------------
+~2x 200uF (35V)
+P/N: EEU-FC1V221
+8mm Dia , 10.2mm height
+
+Output Connector
+----------------
+Just say 10mm x 10mm for now (Have not decided on exact connector yet)
+
+Audio Amp (tpa)
+-----------
+10mm x 10mm
 
 Dimensions Breakdown
 ---------------------
 2x Inductor(L6060-333ME_)
 	6.36mm x 6.56mm x 6.1mm
 
-
-
 Layout guideline
 ----------------------
 	http://www.ti.com/lit/ug/slou191d/slou191d.pdf
 	This looks pretty straight forward.
+
 
