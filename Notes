@@ -27,16 +27,32 @@ P/N: EEU-FC1V221
 
 Output Connector
 ----------------
-Just say 10mm x 10mm for now (Have not decided on exact connector yet)
+-Just say 10mm x 10mm for now 
+-(Have not decided on exact connector yet)
+-These will probably determine the height
 
 Audio Amp (tpa)
 -----------
 10mm x 10mm
 
+Stack Headers
+-------------
+From - ELEC/Datasheets/0.1in ....
+8.5 + (10.5 - 6.4) = 12.5mm = board to board space during stack, no parts on the bottom
+
 Dimensions Breakdown
 ---------------------
 2x Inductor(L6060-333ME_)
 	6.36mm x 6.56mm x 6.1mm
+
+2x Cin
+	8mm Dia , 10.2mm height
+
+tpa
+	10mm x 10mm
+
+Connector
+	10mm x 10mm
 
 Layout guideline
 ----------------------
