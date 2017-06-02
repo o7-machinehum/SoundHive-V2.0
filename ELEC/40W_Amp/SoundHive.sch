@@ -1,0 +1,51 @@
+EESchema Schematic File Version 2
+LIBS:conn
+LIBS:ClassD_Audio
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "2 jun 2017"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TPA3106D1 U1
+U 1 1 5927C849
+P 5150 3050
+F 0 "U1" H 4250 3800 60  0000 C CNN
+F 1 "TPA3106D1" H 4450 3900 60  0000 C CNN
+F 2 "~" H 4850 3100 60  0000 C CNN
+F 3 "~" H 4850 3100 60  0000 C CNN
+	1    5150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 J2
+U 1 1 5930E163
+P 9100 3050
+F 0 "J2" H 9100 3500 50  0000 C CNN
+F 1 "CONN_01X08" V 9200 3050 50  0000 C CNN
+F 2 "" H 9100 3050 50  0001 C CNN
+F 3 "" H 9100 3050 50  0001 C CNN
+	1    9100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 J1
+U 1 1 5930E170
+P 8150 3050
+F 0 "J1" H 8150 3500 50  0000 C CNN
+F 1 "CONN_01X08" V 8250 3050 50  0000 C CNN
+F 2 "" H 8150 3050 50  0001 C CNN
+F 3 "" H 8150 3050 50  0001 C CNN
+	1    8150 3050
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
