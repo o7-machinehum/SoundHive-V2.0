@@ -36,6 +36,7 @@ LabSize=60
 LibName1=conn
 LibName2=ClassD_Audio
 LibName3=device
+LibName4=power
 [cvpcb]
 version=1
 NetIExt=net

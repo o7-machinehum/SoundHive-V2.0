@@ -3,4 +3,7 @@
 	(lib (name Houseings_QFP)(type KiCad)(uri ../Libraries/lib_fp/Housings_QFP.pretty)(options "")(descr ""))
 	(lib (name Houseings_QFP_Walker)(type KiCad)(uri ../Libraries/lib_fp/Housings_QFP_Walker.pretty)(options "")(descr ""))
 	(lib (name Inductors)(type KiCad)(uri ../Libraries/lib_fp/Inductors.pretty)(options "")(descr ""))
+	(lib (name Capacitors_SMD)(type KiCad)(uri ../Libraries/lib_fp/Capacitors_SMD.pretty)(options "")(descr ""))
+	(lib (name Resistors_SMD)(type KiCad)(uri ../Libraries/lib_fp/Resistors_SMD.pretty)(options "")(descr ""))
+
 )

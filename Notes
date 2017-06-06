@@ -22,7 +22,7 @@ Dimensions
 Cin (Bulk cap)
 ------------
 ~2x 200uF (35V)
-P/N: EEU-FC1V221
+P/N: EEE-1VA221UP
 8mm Dia , 10.2mm height
 
 Output Connector
@@ -76,5 +76,5 @@ H2.3 3V3 (?)
 H2.4 12V (?)
 H2.5 AUX_L
 H2.6 AUX_R
-H2.7 AUX_GND (Maybe this should be the same as DGND)
+H2.7 AUX_GND (Maybe this should be the same as PGND)
 H2.8 (?)
