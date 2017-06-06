@@ -35,6 +35,7 @@ LabSize=60
 [eeschema/libraries]
 LibName1=conn
 LibName2=ClassD_Audio
+LibName3=device
 [cvpcb]
 version=1
 NetIExt=net
