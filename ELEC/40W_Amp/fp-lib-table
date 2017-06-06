@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Pin_Headers)(type KiCad)(uri /home/machinehum/SoundHive-V2.0/ELEC/Libraries/lib_fp/Pin_Headers.pretty)(options "")(descr ""))
+)
