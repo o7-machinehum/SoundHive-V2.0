@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5+dfsg1-4~bpo8+1)
+(kicad_pcb (version 4) (host pcbnew 4.0.2+dfsg1-stable)
 
   (general
     (links 7)
     (no_connects 5)
-    (area 78.786667 80.075 143.463334 113.895)
+    (area 78.711667 85.235 143.538334 113.795)
     (thickness 1.6)
     (drawings 0)
     (tracks 6)
@@ -543,4 +543,15 @@
   (segment (start 102.076 98.33) (end 103.7 98.33) (width 0.25) (layer F.Cu) (net 48) (tstamp 5936430F))
   (segment (start 100.076 100.33) (end 102.076 98.33) (width 0.25) (layer F.Cu) (net 48) (tstamp 5936430B))
 
+  (zone (net 43) (net_name "Net-(L2-Pad1)") (layer F.Cu) (tstamp 593643AF) (hatch full 0.508)
+    (connect_pads yes (clearance 0.508))
+    (min_thickness 0.254)
+    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing chamfer))
+    (polygon
+      (pts
+        (xy 111.506 98.806) (xy 113.538 98.806) (xy 116.078 98.806) (xy 116.078 86.868) (xy 120.396 86.868)
+        (xy 120.396 100.584) (xy 114.046 100.584) (xy 113.284 100.33) (xy 111.506 100.33)
+      )
+    )
+  )
 )

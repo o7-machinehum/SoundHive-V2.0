@@ -35,7 +35,7 @@ U 1 1 5930E163
 P 9100 3050
 F 0 "J2" H 9100 3500 50  0000 C CNN
 F 1 "CONN_01X08" V 9200 3050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9100 3050 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Tall_Pitch2.54mm" H 9100 3050 50  0001 C CNN
 F 3 "" H 9100 3050 50  0001 C CNN
 	1    9100 3050
 	1    0    0    -1  
@@ -46,7 +46,7 @@ U 1 1 5930E170
 P 8150 3050
 F 0 "J1" H 8150 3500 50  0000 C CNN
 F 1 "CONN_01X08" V 8250 3050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 8150 3050 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Tall_Pitch2.54mm" H 8150 3050 50  0001 C CNN
 F 3 "" H 8150 3050 50  0001 C CNN
 	1    8150 3050
 	-1   0    0    1   
