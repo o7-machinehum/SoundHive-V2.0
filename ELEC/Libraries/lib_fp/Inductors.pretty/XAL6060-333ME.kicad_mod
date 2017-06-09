@@ -15,7 +15,7 @@
   (fp_line (start -3.81 -3.81) (end -2.54 -3.81) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -2.02 0) (size 1.43 5.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.02 0) (size 1.43 5.5) (layers F.Cu F.Paste F.Mask))
-  (model ../Libraries/3d_models/Coilcraft-XAL6060.wrl
+  (model ${KIPRJMOD}/../Libraries/3d_models/Coilcraft-XAL6060.wrl
     (at (xyz 0 0 0))
     (scale (xyz 400 400 400))
     (rotate (xyz 270 0 0))

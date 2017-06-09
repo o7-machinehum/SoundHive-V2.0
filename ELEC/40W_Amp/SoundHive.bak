@@ -412,8 +412,8 @@ L R R4
 U 1 1 5937C4E4
 P 7400 2050
 F 0 "R4" V 7600 2050 50  0000 C CNN
-F 1 "R" V 7500 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7330 2050 50  0001 C CNN
+F 1 "20R 1/4 W, 5%" V 7500 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 7330 2050 50  0001 C CNN
 F 3 "" H 7400 2050 50  0001 C CNN
 	1    7400 2050
 	1    0    0    -1  
@@ -450,17 +450,6 @@ F 2 "Capacitors_SMD:C_0805" H 7438 4000 50  0001 C CNN
 F 3 "" H 7400 4150 50  0001 C CNN
 	1    7400 4150
 	-1   0    0    1   
-$EndComp
-$Comp
-L R R5
-U 1 1 5937CDAA
-P 7400 4700
-F 0 "R5" V 7600 4700 50  0000 C CNN
-F 1 "R" V 7500 4700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7330 4700 50  0001 C CNN
-F 3 "" H 7400 4700 50  0001 C CNN
-	1    7400 4700
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7400 4000 7400 3650
@@ -678,4 +667,15 @@ Text Notes 2050 4100 0    60   ~ 0
 Most likely the speaker configuration can \nbe set w/ these gain jumpers (8ohm or 4ohm)
 Text Notes 2050 4550 0    60   ~ 0
 MSTR/SLV need to go to a jumper\nthen the sync pins needs to be tied\nthrough the headers. The headers \nneed to be close to the chip!.
+$Comp
+L R R?
+U 1 1 59383A68
+P 7400 4700
+F 0 "R?" V 7600 4700 50  0000 C CNN
+F 1 "20R 1/4 W, 5%" V 7500 4700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 7330 4700 50  0001 C CNN
+F 3 "" H 7400 4700 50  0001 C CNN
+	1    7400 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

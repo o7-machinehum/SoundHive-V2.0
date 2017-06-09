@@ -26,7 +26,7 @@ LibDir=
 version=1
 [eeschema]
 version=1
-LibDir=../Libraries/lib_sch/
+LibDir=${KIPRJMOD}/../Libraries/lib_sch/
 NetFmtName=
 RptD_X=0
 RptD_Y=100

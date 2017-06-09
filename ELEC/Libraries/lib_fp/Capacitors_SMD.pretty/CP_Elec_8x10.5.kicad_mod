@@ -37,7 +37,7 @@
   (fp_line (start 5.3 4.29) (end -5.3 4.29) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -3.05 0 180) (size 4 2.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 3.05 0 180) (size 4 2.5) (layers F.Cu F.Paste F.Mask))
-  (model ../Libraries/3d_models/AL_EL_cap_8mmx10mm.wrl
+  (model  ${KIPRJMOD}/../Libraries/3d_models/AL_EL_cap_8mmx10mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 410 410 410))
     (rotate (xyz 270 0 90))

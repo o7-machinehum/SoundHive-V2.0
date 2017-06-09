@@ -668,10 +668,10 @@ Most likely the speaker configuration can \nbe set w/ these gain jumpers (8ohm o
 Text Notes 2050 4550 0    60   ~ 0
 MSTR/SLV need to go to a jumper\nthen the sync pins needs to be tied\nthrough the headers. The headers \nneed to be close to the chip!.
 $Comp
-L R R?
+L R R5
 U 1 1 59383A68
 P 7400 4700
-F 0 "R?" V 7600 4700 50  0000 C CNN
+F 0 "R5" V 7600 4700 50  0000 C CNN
 F 1 "20R 1/4 W, 5%" V 7500 4700 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" V 7330 4700 50  0001 C CNN
 F 3 "" H 7400 4700 50  0001 C CNN
