@@ -1,8 +1,16 @@
 SoundHive - V2.0
 =========
 
-Walker's back doing audio again.
+SoundHive is a low cost open source audio amplifier, designed to be stacked much like Arduino, the
+aim is to reduce electronic waste by utilizing existing speakers without having to buy new amplifiers. 
+It also increased modularity and customization. This allows the ultimate flexability of complete system design.
 
-http://www.ti.com/lit/ds/symlink/tpa3106d1.pdf
+V2.0 is an evolution of the original project, which can be found here: https://github.com/Machine-Hum/SoundHive
+
+
+Amp - 40W
+--------
+Under construction
+![alt tag](/Media/Pictures/June11_2017.png)
 
 -Walker (Machinehum)
