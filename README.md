@@ -11,6 +11,6 @@ V2.0 is an evolution of the original project, which can be found here: https://g
 Amp - 40W
 --------
 Under construction
-![alt tag](/Media/Pictures/June11_2017.png)
+![alt tag](/Media/Pictures/June14_2017.png)
 
 -Walker (Machinehum)
