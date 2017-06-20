@@ -6,5 +6,6 @@
   (lib (name Capacitors_SMD)(type KiCad)(uri ${KIPRJMOD}/../Libraries/lib_fp/Capacitors_SMD.pretty)(options "")(descr ""))
   (lib (name Resistors_SMD)(type KiCad)(uri ${KIPRJMOD}/../Libraries/lib_fp/Resistors_SMD.pretty)(options "")(descr ""))
   (lib (name Connectors_Terminal_Blocks.pretty)(type KiCad)(uri ${KIPRJMOD}/../Libraries/lib_fp/Connectors_Terminal_Blocks.pretty)(options "")(descr ""))
-  (lib (name Via)(type KiCad)(uri ${KIPRJMOD}/../Libraries/lib_fp/via.pretty)(options "")(descr ""))
+  (lib (name Connectors_Barrel.pretty)(type KiCad)(uri ${KIPRJMOD}/../Libraries/lib_fp/Connectors_Barrel.pretty)(options "")(descr ""))
+	(lib (name Via)(type KiCad)(uri ${KIPRJMOD}/../Libraries/lib_fp/via.pretty)(options "")(descr ""))
 )
