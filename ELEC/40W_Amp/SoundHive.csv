@@ -1,0 +1,23 @@
+Ref,Qty,Value,Footprint,Part Number
+C1 C2 C6 C4 C14 C15 C9 C8 C7 C17 ,10,1.0uF,Capacitors_SMD:C_0805,UMK212BJ105KG-T
+C5 C3 ,2,220uF,Capacitors_SMD:CP_Elec_8x10.5,EEE-1VA221UP
+C12 C13 ,2,1nF COG,Capacitors_SMD:C_0805,C0805C102J5GACTU
+C10 C11 ,2,0.22uF,Capacitors_SMD:C_0805,UMK212B7224KG-T
+C16 ,1,10uF,Capacitors_SMD:C_0805,GRM21BR6YA106KE43L
+J2 J1 ,2,CONN_01X08,Pin_Headers:Pin_Header_Straight_1x08_Tall_Pitch2.54mm, 
+J3 ,1,Screw_Terminal_1x02,Connectors_Terminal_Blocks.pretty:TerminalBlock_Pheonix_MKDS1.5-2pol,1715721
+J4 J6 J5 ,3,CONN_01X02_MALE,Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm, 
+J7 ,1,CONN_01X03_MALE,Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm, 
+J8 ,1,CONN_01X01,Via:10mil_Via, 
+L1 ,1,33uH,Inductors:XAL6060-333ME,XAL6060-333ME
+L2 ,1,33uH,Inductors:XAL6060-333ME,33uH
+R4 R5 ,2,20R 1/4 W - 1%,Resistors_SMD:R_1206,RC0805FR-0720RL
+R3 ,1,100K 1%,Resistors_SMD:R_0805,RC0805FR-07100KL
+R1 R2 R6 ,3,100K,Resistors_SMD:R_0805,RMCF0805JT100K
+U1 ,1,TPA3106D1,Houseings_QFP_Walker:LQFP-32_7x7mm_Pitch0.8mm-EP,TPA3106D1
+,,,,
+,,,,
+,,,,
+,,,,
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git),,,,
+Generated Fri 30 Jun 2017 03:16:41 PM PDT,,,,
