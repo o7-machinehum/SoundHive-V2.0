@@ -40,8 +40,6 @@ F 3 "" H 10450 3450 50  0001 C CNN
 	1    10450 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2350 3050 2650 3050
 Text Label 2650 3050 0    60   ~ 0
 SYNC
 $Comp
@@ -66,19 +64,6 @@ F 3 "" H 10050 3050 50  0001 C CNN
 	1    10050 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10250 3100 10250 3400
-Connection ~ 10250 3300
-Connection ~ 10250 3200
-Connection ~ 10250 3250
-Wire Wire Line
-	10250 3250 10050 3250
-Wire Wire Line
-	10050 3250 10050 3050
-Wire Wire Line
-	10250 3500 10250 3800
-Connection ~ 10250 3600
-Connection ~ 10250 3700
 $Comp
 L GND #PWR03
 U 1 1 593E5FB4
@@ -90,29 +75,10 @@ F 3 "" H 10050 3850 50  0001 C CNN
 	1    10050 3850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10250 3650 10050 3650
-Wire Wire Line
-	10050 3650 10050 3850
-Connection ~ 10250 3650
 Text Label 2650 3250 0    60   ~ 0
 AUX_R
 Text Label 2650 3350 0    60   ~ 0
 AUX_L
-Wire Wire Line
-	2650 3250 2350 3250
-Wire Wire Line
-	2350 3350 2650 3350
-Wire Wire Line
-	2950 3150 2350 3150
-Wire Wire Line
-	2350 3450 2650 3450
-Wire Wire Line
-	2350 3550 2650 3550
-Wire Wire Line
-	2350 3650 2650 3650
-Wire Wire Line
-	2350 3750 2650 3750
 NoConn ~ 2650 3450
 NoConn ~ 2650 3550
 NoConn ~ 2650 3650
@@ -139,15 +105,6 @@ F 3 "" H 5200 3100 50  0001 C CNN
 	1    5200 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5200 3250 5200 3100
-Wire Wire Line
-	4800 3350 4800 3600
-Wire Wire Line
-	4800 3600 5200 3600
-Wire Wire Line
-	5200 3550 5200 3700
-Connection ~ 4800 3450
 $Comp
 L GND #PWR05
 U 1 1 59628CB8
@@ -169,19 +126,6 @@ F 2 "Capacitors_SMD:CP_Elec_8x10.5" H 5438 3250 50  0001 C CNN
 F 3 "" H 5400 3400 50  0001 C CNN
 F 4 "EEE-1VA221UP" H 5400 3400 60  0001 C CNN "Part Number"
 	1    5400 3400
-	1    0    0    -1  
-$EndComp
-Connection ~ 5200 3250
-Connection ~ 5200 3600
-$Comp
-L C C6
-U 1 1 59628F1D
-P 6800 3400
-F 0 "C6" H 6825 3500 50  0000 L CNN
-F 1 "10uF" H 6825 3300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 6838 3250 50  0001 C CNN
-F 3 "" H 6800 3400 50  0001 C CNN
-	1    6800 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -221,54 +165,86 @@ F 4 "EEE-1VA221UP" H 6450 3400 60  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
-U 1 1 59629A98
-P 7100 3400
-F 0 "C5" H 7125 3500 50  0000 L CNN
-F 1 "10uF" H 7125 3300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 7138 3250 50  0001 C CNN
-F 3 "" H 7100 3400 50  0001 C CNN
-	1    7100 3400
-	1    0    0    -1  
+L CONN_01X02 J4
+U 1 1 597010A4
+P 4500 4150
+F 0 "J4" H 4500 4300 50  0000 C CNN
+F 1 "XT60 Connector" H 4500 4400 50  0000 C CNN
+F 2 "Connectors_Battery:XT60_Inline" H 4500 4150 50  0001 C CNN
+F 3 "" H 4500 4150 50  0001 C CNN
+	1    4500 4150
+	-1   0    0    -1  
 $EndComp
 $Comp
-L C C7
-U 1 1 59629ADF
-P 7400 3400
-F 0 "C7" H 7425 3500 50  0000 L CNN
-F 1 "10uF" H 7425 3300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 7438 3250 50  0001 C CNN
-F 3 "" H 7400 3400 50  0001 C CNN
-	1    7400 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C8
-U 1 1 59629B15
-P 7700 3400
-F 0 "C8" H 7725 3500 50  0000 L CNN
-F 1 "0.1uF" H 7725 3300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 7738 3250 50  0001 C CNN
-F 3 "" H 7700 3400 50  0001 C CNN
-	1    7700 3400
+L GND #PWR?
+U 1 1 59701954
+P 4850 4400
+F 0 "#PWR?" H 4850 4150 50  0001 C CNN
+F 1 "GND" H 4850 4250 50  0000 C CNN
+F 2 "" H 4850 4400 50  0001 C CNN
+F 3 "" H 4850 4400 50  0001 C CNN
+	1    4850 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 3250 7700 3250
+	2350 3050 2650 3050
+Wire Wire Line
+	10250 3100 10250 3400
+Connection ~ 10250 3300
+Connection ~ 10250 3200
+Connection ~ 10250 3250
+Wire Wire Line
+	10250 3250 10050 3250
+Wire Wire Line
+	10050 3250 10050 3050
+Wire Wire Line
+	10250 3500 10250 3800
+Connection ~ 10250 3600
+Connection ~ 10250 3700
+Wire Wire Line
+	10250 3650 10050 3650
+Wire Wire Line
+	10050 3650 10050 3850
+Connection ~ 10250 3650
+Wire Wire Line
+	2650 3250 2350 3250
+Wire Wire Line
+	2350 3350 2650 3350
+Wire Wire Line
+	2950 3150 2350 3150
+Wire Wire Line
+	2350 3450 2650 3450
+Wire Wire Line
+	2350 3550 2650 3550
+Wire Wire Line
+	2350 3650 2650 3650
+Wire Wire Line
+	2350 3750 2650 3750
+Wire Wire Line
+	5200 3250 5200 3100
+Wire Wire Line
+	4800 3350 4800 3600
+Wire Wire Line
+	4800 3600 5200 3600
+Wire Wire Line
+	5200 3550 5200 3700
+Connection ~ 4800 3450
+Connection ~ 5200 3250
+Connection ~ 5200 3600
+Wire Wire Line
+	4800 3250 6450 3250
 Connection ~ 5400 3250
 Connection ~ 5750 3250
 Connection ~ 6100 3250
-Connection ~ 6450 3250
-Connection ~ 6800 3250
-Connection ~ 7100 3250
-Connection ~ 7400 3250
-Wire Wire Line
-	5200 3550 7700 3550
 Connection ~ 5400 3550
 Connection ~ 5750 3550
 Connection ~ 6100 3550
-Connection ~ 6450 3550
-Connection ~ 6800 3550
-Connection ~ 7100 3550
-Connection ~ 7400 3550
+Wire Wire Line
+	5200 3550 6450 3550
+Wire Wire Line
+	4700 4200 4850 4200
+Wire Wire Line
+	4850 4200 4850 4400
+Wire Wire Line
+	4700 4100 5850 4100
 $EndSCHEMATC

@@ -1,66 +1,18 @@
-2x Chokes ~33uH
+TODO (Gates):
+	1. Power PCB 
+		a) Test cutoff on breadboard using whatever components
+		b) Schematic capture
+		c) Layout using ideal components
+		d) Purchasing
+	2. 40W Amp
+		a) Testing
 
-40w output into 8ohm load @ Vdd = 25V
-iout = ~2.23A
-Choose 3A choke
-
-XAL6060-333ME_ from coilcraft
----------------------------
-2x L6060-333ME_	
-L = 33uH
-R = 95.68mohm
-Isat = 3.7A
-Irms = 2.7A (20C)
-Irms = 3.6A (40C)
-
-Dimensions
-6.36mm x 6.56mm x 6.1mm
-
-Cin (Bulk cap)
-------------
-~2x 200uF (35V)
-P/N: EEE-1VA221UP
-8mm Dia , 10.2mm height
 
 Output Connector
 ----------------
--Just say 10mm x 10mm for now 
--(Have not decided on exact connector yet)
--These will probably determine the height
--1715721 <- This part did not work (collision)
-	-13.8mm high
-
 -OSTTC022162
 	-10mm high, (same pitch) 
-	-Double check to see if this will fix the collision issue
-
-Audio Amp (tpa)
------------
-10mm x 10mm
-
-Stack Headers
--------------
-From - ELEC/Datasheets/0.1in ....
-8.5 + (10.5 - 6.4) = 12.5mm = board to board space during stack, no parts on the bottom
-
-Dimensions Breakdown
----------------------
-2x Inductor(L6060-333ME_)
-	6.36mm x 6.56mm x 6.1mm
-
-2x Cin
-	8mm Dia , 10.2mm height
-
-tpa
-	10mm x 10mm
-
-Connector
-	10mm x 10mm
-
-Layout guideline
-----------------------
-	http://www.ti.com/lit/ug/slou191d/slou191d.pdf
-	This looks pretty straight forward.
+	-This fixes the collision issue
 
 Header Pinout (Say 2x 1x8 for now)
 ----------------------
@@ -77,9 +29,35 @@ H1.8 GND
 (J2)
 H2.1 I2C_SDA (Future)
 H2.2 I2C_SCL (Future)
-H2.3 3V3 (Future)
+H2.3 5V (Future)
 H2.4 12V (Future)
 H2.5 AUX_L
 H2.6 AUX_R
 H2.7 AUX_GND - This just gets rolled into PGND
 H2.8 SYNC
+
+Roadmap (Future stuff)
+---------------------
+40W Switching amplifier
+	-Rev 0.1 complete
+		-Required new termial connector, collision issues
+		-Probably needs a volume knob. How should I do this?
+		-If integrating a volume knob, might as well put in some LEDs
+
+AUX input jack (3.5mm)
+	-Single connector
+		-Possibly 2x multiplexed?
+
+Powerboard 
+	-Barrel Connector
+		-Straight in
+	-XT60 input
+		-Cuttoff Circuitry using a powerpath FET
+			-Program in different cutoff voltage for different cell sizes
+				-4-6 cell design (16.8V - 25.2V)
+			-Make sure the quicient current is low, don't drain flat
+
+Bluetooth module
+	-For streaming audio
+
+
