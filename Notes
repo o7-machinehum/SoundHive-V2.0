@@ -1,12 +1,13 @@
 TODO (Gates):
 	1. Power PCB 
-		a) Test cutoff on breadboard using whatever components
-		b) Schematic capture
-		c) Layout using ideal components
-		d) Purchasing
-	2. 40W Amp
-		a) Testing
-
+		a) Component Selection
+			-Single supply opamp (Low iq)
+				-LMV358LIDT
+			-5V Linear regulator (Low iq)
+			
+			-Powerline FET (Enhansement N-Channel)
+				-Same FET from hydro
+			-Resistor selection
 
 Output Connector
 ----------------
