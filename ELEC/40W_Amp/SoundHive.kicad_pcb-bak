@@ -3,9 +3,9 @@
   (general
     (links 236)
     (no_connects 2)
-    (area 94.641999 75.230666 138.727 127.461333)
+    (area 94.691999 77.927999 137.464001 124.764001)
     (thickness 1.6)
-    (drawings 10)
+    (drawings 14)
     (tracks 170)
     (zones 0)
     (modules 187)
@@ -3473,6 +3473,10 @@
       (net 28 "Net-(J8-Pad1)"))
   )
 
+  (gr_line (start 137.414 77.978) (end 94.742 77.978) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 137.414 124.714) (end 137.414 77.978) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 94.742 124.714) (end 137.414 124.714) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 94.742 77.978) (end 94.742 124.714) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_text Out (at 132.842 116.84) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )

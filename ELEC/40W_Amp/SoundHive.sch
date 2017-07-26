@@ -700,7 +700,7 @@ U 1 1 593E05BD
 P 9600 3500
 F 0 "J3" H 9600 3750 50  0000 C TNN
 F 1 "Screw_Terminal_1x02" V 9450 3500 50  0000 C TNN
-F 2 "Connectors_Terminal_Blocks.pretty:TerminalBlock_Pheonix_MKDS1.5-2pol" H 9600 3275 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks.pretty:TerminalBlock_OSTTC022162" H 9600 3275 50  0001 C CNN
 F 3 "" H 9575 3500 50  0001 C CNN
 F 4 "1715721" H 9600 3500 60  0001 C CNN "Part Number"
 	1    9600 3500
