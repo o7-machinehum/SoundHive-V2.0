@@ -1,9 +1,10 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
-FILE_NAME('/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/SoundHive.step',
-  '2017-07-27T19:59:46',('kicad StepUp'),('ksu MCAD'),
-  'Open CASCADE STEP processor 6.8','FreeCAD','Unknown');
+FILE_NAME(
+  '/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/SoundHive.step',
+  '2017-07-27T20:01:06',(''),(''),'Open CASCADE STEP processor 6.8',
+  'FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));
 ENDSEC;
 DATA;
@@ -21270,7 +21271,7 @@ SHAPE_REPRESENTATION_RELATIONSHIP() );
 #17022 = ITEM_DEFINED_TRANSFORMATION('','',#11,#15);
 #17023 = PRODUCT_DEFINITION_SHAPE('Placement','Placement of an item',
   #17024);
-#17024 = NEXT_ASSEMBLY_USAGE_OCCURRENCE('1','=>[0:1:1:2]','',#5,#17015,$
+#17024 = NEXT_ASSEMBLY_USAGE_OCCURRENCE('2','=>[0:1:1:2]','',#5,#17015,$
   );
 #17025 = PRODUCT_TYPE('part',$,(#17017));
 #17026 = MECHANICAL_DESIGN_GEOMETRIC_PRESENTATION_REPRESENTATION('',(
