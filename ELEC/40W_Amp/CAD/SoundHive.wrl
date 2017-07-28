@@ -9,7 +9,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/LQFP-32_7x7mm_Pitch0.8mm.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/LQFP-32_7x7mm_Pitch0.8mm.wrl"
     } ]
   }
 Transform {
@@ -18,7 +18,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -27,7 +27,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -36,7 +36,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -45,7 +45,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -54,7 +54,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -63,7 +63,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -72,7 +72,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -81,7 +81,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -90,7 +90,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -99,7 +99,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -108,7 +108,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -117,7 +117,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -125,7 +125,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/R_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/R_0805.wrl"
     } ]
   }
 Transform {
@@ -133,7 +133,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/R_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/R_0805.wrl"
     } ]
   }
 Transform {
@@ -142,7 +142,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/R_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/R_0805.wrl"
     } ]
   }
 Transform {
@@ -151,7 +151,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/R_1206.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/R_1206.wrl"
     } ]
   }
 Transform {
@@ -160,7 +160,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/R_1206.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/R_1206.wrl"
     } ]
   }
 Transform {
@@ -169,7 +169,7 @@ Transform {
   scale 1016 1016 1016
   children [
     Inline {
-      url "shapes3D/Coilcraft-XAL6060.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/Coilcraft-XAL6060.wrl"
     } ]
   }
 Transform {
@@ -178,7 +178,7 @@ Transform {
   scale 1016 1016 1016
   children [
     Inline {
-      url "shapes3D/Coilcraft-XAL6060.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/Coilcraft-XAL6060.wrl"
     } ]
   }
 Transform {
@@ -187,7 +187,7 @@ Transform {
   scale 1041.4 1041.4 1041.4
   children [
     Inline {
-      url "shapes3D/AL_EL_cap_8mmx10mm.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/AL_EL_cap_8mmx10mm.wrl"
     } ]
   }
 Transform {
@@ -196,7 +196,7 @@ Transform {
   scale 1041.4 1041.4 1041.4
   children [
     Inline {
-      url "shapes3D/AL_EL_cap_8mmx10mm.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/AL_EL_cap_8mmx10mm.wrl"
     } ]
   }
 Transform {
@@ -204,7 +204,7 @@ Transform {
   scale 1003.3 1003.3 1003.3
   children [
     Inline {
-      url "shapes3D/User Library-SIL_Socket08.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/User Library-SIL_Socket08.wrl"
     } ]
   }
 Transform {
@@ -212,7 +212,7 @@ Transform {
   scale 1003.3 1003.3 1003.3
   children [
     Inline {
-      url "shapes3D/User Library-SIL_Socket08.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/User Library-SIL_Socket08.wrl"
     } ]
   }
 Transform {
@@ -221,7 +221,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -229,7 +229,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/Pin_Header_Angled_1x02_Pitch2.54mm.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/Pin_Header_Angled_1x02_Pitch2.54mm.wrl"
     } ]
   }
 Transform {
@@ -237,7 +237,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/Pin_Header_Angled_1x02_Pitch2.54mm.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/Pin_Header_Angled_1x02_Pitch2.54mm.wrl"
     } ]
   }
 Transform {
@@ -245,7 +245,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/Pin_Header_Angled_1x02_Pitch2.54mm.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/Pin_Header_Angled_1x02_Pitch2.54mm.wrl"
     } ]
   }
 Transform {
@@ -254,7 +254,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/R_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/R_0805.wrl"
     } ]
   }
 Transform {
@@ -262,7 +262,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -270,7 +270,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/C_0805.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/C_0805.wrl"
     } ]
   }
 Transform {
@@ -279,7 +279,7 @@ Transform {
   scale 2.54 2.54 2.54
   children [
     Inline {
-      url "shapes3D/Pin_Header_Angled_1x03_Pitch2.54mm.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/Pin_Header_Angled_1x03_Pitch2.54mm.wrl"
     } ]
   }
 Transform {
@@ -288,7 +288,7 @@ Transform {
   scale 1016 1016 1016
   children [
     Inline {
-      url "shapes3D/OSTTC022162.wrl"
+      url "/home/machinehum/SoundHive-V2.0/ELEC/40W_Amp/CAD/shapes3D/OSTTC022162.wrl"
     } ]
   }
 Transform {
