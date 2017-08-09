@@ -807,6 +807,11 @@ K Memristor
 F https://en.wikipedia.org/wiki/Memristor
 $ENDCMP
 #
+$CMP MOSFET_8PIN
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP Microphone
 D Microphone
 K Microphone

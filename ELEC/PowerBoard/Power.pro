@@ -37,6 +37,9 @@ LibName1=conn
 LibName2=ClassD_Audio
 LibName3=device
 LibName4=power
+LibName5=PMIC
+LibName6=linear
+
 [cvpcb]
 version=1
 NetIExt=net
