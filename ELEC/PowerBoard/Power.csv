@@ -1,0 +1,38 @@
+Title,
+Revision,
+Date,2 jun 2017
+Generated,Mon 14 Aug 2017 06:11:22 PM PDT
+Company,
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,28
+Total Unique Parts,17
+
+
+
+Ref,Qty,Value,Footprint,Part Number,
+C1 C2 C3 C4 ,4,220uF,Capacitors_SMD:CP_Elec_8x10.5,EEE-1VA221UP
+C5 C7 C9 ,3,100nF,Capacitors_SMD:C_0805,CL21B103KBANNNC
+C6 C8 ,2,4.7uF,Capacitors_SMD:C_0805,CL21A475KLCLQNC
+C10 ,1,1uF,Capacitors_SMD:C_0805,CL21B105KBFNNNE
+J2 J1 ,2,CONN_01X08,Pin_Headers:Pin_Header_Straight_1x08_Tall_Pitch2.54mm, 
+J3 ,1,Barrel_Jack,Connectors_Barrel.pretty:PJ-082BH,PJ-082BH
+J4 ,1,XT60 Connector,Connectors_Battery:XT60_Inline, 
+J5 ,1,CONN_02X03,Pin_Headers:Pin_Header_Straight_2x03_Pitch1.27mm,20021111-00006T4LF
+Q1 ,1,MOSFET_8PIN,Housings_SOIC.pretty:SOIC-8_3.9x4.9mm_Pitch1.27mm,AO4576
+R1 Ry1 R5 R6 R7 ,5,1M,Resistors_SMD:R_0805,ERJ-6GEYJ105V
+R2 ,1,422K,Resistors_SMD:R_0805,ERJ-6ENF4223V
+R3 ,1,316K,Resistors_SMD:R_0805,ERJ-6ENF3163V
+R4 ,1,243K,Resistors_SMD:R_0805,ERJ-6ENF2433V
+Rh1 ,1,1.32M,Resistors_SMD:R_0805,ERJ-6ENF1334V
+Rx1 ,1,220K,Resistors_SMD:R_0805,ERJ-6GEYJ224V
+U2 ,1,LMV358,Housings_SOIC.pretty:SOIC-8_3.9x4.9mm_Pitch1.27mm,LMV358MX/NOPB
+U1 ,1,LM9036MX,Housings_SOIC.pretty:SOIC-8_3.9x4.9mm_Pitch1.27mm,LM9036MX-5.0/NOPB
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated Mon 14 Aug 2017 06:11:22 PM PDT
